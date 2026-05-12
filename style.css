@@ -2163,6 +2163,55 @@ form button:hover{
   .contact-container{
     flex-direction:column;
   }
+  .hero{
+padding-top:120px;
+min-height:auto;
+}
+
+header{
+padding:15px 20px;
+}
+
+.logo-text{
+font-size:14px;
+}
+
+.right{
+margin-top:60px;
+}
+
+.circle{
+width:240px;
+height:240px;
+}
+
+.circle .arc1{
+width:280px;
+height:280px;
+}
+
+.circle .arc2{
+width:320px;
+height:320px;
+}
+
+.tag.top{
+right:-10px;
+top:15%;
+}
+
+.tag.bottom{
+left:-10px;
+bottom:15%;
+}
+
+.scroll{
+display:none;
+}
+
+body{
+overflow-x:hidden;
+}
 }
 
 .footer{
@@ -2282,4 +2331,10 @@ section,
 header{
   position:relative;
   z-index:1;
+}
+html,body{
+max-width:100%;
+overflow-x:hidden;
+overscroll-behavior:none;
+background:#020617;
 }
